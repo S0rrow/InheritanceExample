@@ -8,7 +8,7 @@ public class PolymorphismDemonstrator {
 		people[1] = new Undergraduate("Kick, Anita", 9931, 2);
 		people[2] = new Student("DeBanque, Robin", 8812);
 		people[3] = new Undergraduate("Bugg, June", 9901, 4);
-		people[4] = new Undergraduate("Choi, Liel", 0726, 2);
+		people[4] = new Faculty("Choi, Liel", 0726, 2);
 		for (Person p : people) {
 			p.writeOutput();
 			System.out.println();
